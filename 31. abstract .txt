@@ -1,0 +1,39 @@
+// main.dart
+
+import 'Son.dart';
+
+void main(){
+
+  var obj = new Son();
+
+  obj.Sum();
+  obj.Mult();
+  obj.Name();
+ }
+
+
+//Son.dart
+
+import 'Father.dart';
+
+class Son extends Father{
+
+}
+
+
+//Father.dart
+
+abstract class Father {
+
+  void Sum() {
+    print(10+20);
+  }
+
+  void Mult() {
+    print(5*2);
+  }
+
+  void Name() {
+    print("I Love Dart");
+  }
+}

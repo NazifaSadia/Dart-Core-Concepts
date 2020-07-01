@@ -1,0 +1,14 @@
+class Father {
+
+  void Sum() {
+    print(10+20);
+  }
+
+  void Mult() {
+    print(5*2);
+  }
+
+  void Name() {
+    print("I Love Dart");
+  }
+}

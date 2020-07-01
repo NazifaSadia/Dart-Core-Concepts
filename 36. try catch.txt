@@ -1,0 +1,43 @@
+// Method-1  (Handle exception where it exists)
+
+void main(){
+  div();
+}
+
+void div(){
+    int a = 10;
+    int b = 0;
+    int result;
+
+    try {
+      result = a~/b;
+      print(result);
+    }
+    catch(e) {
+      print("Not possible!");
+    }
+}
+ 
+
+
+//Method-2  (Throwing the exception)
+
+void main(){
+  try {
+      div();
+  }
+  catch(e) {
+    print("Not possible!");
+  }
+}
+
+void div(){
+    int a = 10;
+    int b = 0;
+    int result;
+
+    result = a~/b;
+    print(result);
+    throw new Exception();
+}
+ 

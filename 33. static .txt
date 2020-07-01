@@ -1,0 +1,19 @@
+// main.dart
+
+import 'Super.dart';
+
+void main(){
+
+  Super.addTwo();
+ 
+}
+
+// Super.dart
+
+class Super {
+
+  static void addTwo() {
+    print(10+20);
+  }
+  
+} 

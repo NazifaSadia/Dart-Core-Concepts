@@ -1,0 +1,46 @@
+// main.dart
+
+import 'Son.dart';
+
+void main(){
+
+  var obj = new Son();
+
+  obj.sum();
+ 
+}
+
+
+//Son.dart
+
+import 'Father.dart';
+
+class Son extends Father{
+  void sum(){
+    super.addTwo();
+    super.multTwo();
+    super.name();
+
+    var countryName = super.country;
+    print(countryName);
+  }
+}
+
+
+//Father.dart
+
+abstract class Father {
+
+  var country = "Bangladesh";
+  void Sum() {
+    print(10+20);
+  }
+
+  void Mult() {
+    print(5*2);
+  }
+
+  void Name() {
+    print("I Love Dart");
+  }
+}

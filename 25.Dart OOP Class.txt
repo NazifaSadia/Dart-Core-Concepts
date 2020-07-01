@@ -1,0 +1,16 @@
+
+void main(){
+  
+ }
+
+class MyClass {
+  var name = "Nahian";
+  var age = "25";
+
+  void sum(){
+    print(name);
+}
+
+
+
+

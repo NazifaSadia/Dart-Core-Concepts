@@ -1,0 +1,19 @@
+// main.dart
+
+import 'Constructor.dart';
+
+void main(){
+
+  var obj = new Constructor();
+ 
+}
+
+// Constructor.dart
+
+class Constructor {
+
+  Constructor() {
+    print("I am from Constructor");
+  }
+  
+}
