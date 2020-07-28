@@ -1,7 +1,5 @@
 
 void main(){
-  
- }
 
 class MyClass {
   var name = "Nahian";
@@ -9,8 +7,7 @@ class MyClass {
 
   void sum(){
     print(name);
+  }
+ }
+
 }
-
-
-
-

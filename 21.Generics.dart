@@ -1,18 +1,17 @@
 import 'dart:collection';
 
-void main(){
-  
+void main() {
   //List
   var list = new List<String>();
-  var list = new List<int>();
-  var list = new List<double>();
+  var list2 = new List<int>();
+  var list3 = new List<double>();
 
   // Map
   var map = new Map<String, String>();
- 
+
   //Set
   var set = new Set<String>();
 
-   //HashMap
+  //HashMap
   var hashMap = new HashMap<String, String>();
- }
+}
